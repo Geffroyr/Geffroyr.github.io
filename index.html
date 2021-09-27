@@ -336,7 +336,7 @@
 
       $(document).ready(function () {
          $.ajaxSetup({ cache: true });
-   < !--[if lt IE 9]> $.getScript('/scripts/IE/responsive.js');< ![endif]-- >
+   <!--[if lt IE 9]> $.getScript('/scripts/IE/responsive.js');<![endif]-- >
 
       if (my_viewport() > 800) {
             $.getScript('/scripts/bxSlider.js', function () {
@@ -358,7 +358,7 @@
                });
             });
          }
-   < !--Diaporama -->
+   <!--Diaporama -->
             $.getScript('/scripts/skitter.js', function () {
                $("#diaporama").skitter({
                   animation: 'fade',
