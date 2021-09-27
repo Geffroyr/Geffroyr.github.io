@@ -189,9 +189,9 @@ iframe {
   text-transform: uppercase;
   /* padding: 0 2%; */
 }
-.article:last-child .bloc_container {
+/*.article:last-child .bloc_container {
   border: none;
-}
+}*/
 .bloc_inline {
   display: inline-block;
 }
